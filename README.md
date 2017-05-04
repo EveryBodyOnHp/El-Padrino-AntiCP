@@ -9,7 +9,7 @@ Clonar repositorio:
 
 ```bash
 # Clonar El Padrino AntiCP
-git clone https://github.com/emachasal mi_bot
+git clone https://github.com/emachasal/El-Padrino-AntiCP.git mi_bot
 ```
 Instalar dependencias:
 
