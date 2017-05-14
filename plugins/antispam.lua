@@ -10,7 +10,7 @@ local is_not_allowed = db:hget('chat:'..msg.chat.id..':settings', 'spam') == 'di
     end
  	action_sucess = api.banUser(msg.chat.id, msg.from.id)
     if action_sucess then
-    	message = api.sendMessage(msg.chat.id, name.. ' ('..id.. ') ha sido *baneado por spam no permitido LINK* Sin permiso del Creador del Grupo o Admins encargados.', true)
+    	message = api.sendMessage(msg.chat.id, name.. ' ('..id.. ') ha sido *baneado por hacer SPAM* (enviar enlace de un grupo/canal sin permiso de los administradores).', true)
     	print(message)
     	return msg, true
     else
